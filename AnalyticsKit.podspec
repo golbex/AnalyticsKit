@@ -92,11 +92,11 @@ Pod::Spec.new do |s|
     m.dependency 'AnalyticsKit/Core'
   end
 
-  s.subspec 'NewRelic' do |n|
-    n.source_files = 'Providers/New Relic/AnalyticsKitNewRelicProvider.swift'
-    n.dependency 'NewRelicAgent'
-    n.dependency 'AnalyticsKit/Core'
-  end
+#  s.subspec 'NewRelic' do |n|
+#    n.source_files = 'Providers/New Relic/AnalyticsKitNewRelicProvider.swift'
+#    n.dependency 'NewRelicAgent'
+#    n.dependency 'AnalyticsKit/Core'
+#  end
 
   s.subspec 'mParticle' do |n|
     n.source_files = 'Providers/mParticle/AnalyticsKitMParticleProvider.swift'
