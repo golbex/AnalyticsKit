@@ -28,16 +28,16 @@ Pod::Spec.new do |s|
     core.source_files  = 'AnalyticsKit.swift', 'AnalyticsKitEvent.swift', 'AnalyticsKitDebugProvider.swift', 'AnalyticsKitUnitTestProvider.swift', 'AnalyticsKit/AnalyticsKit/AnalyticsKitTimedEventHelper.swift'
   end
 
-  s.subspec 'Intercom' do |i|
-    i.source_files = 'Providers/Intercom/AnalyticsKitIntercomProvider.swift'
-    i.frameworks = 'Intercom'
-    i.dependency 'Intercom'
-    i.dependency 'AnalyticsKit/Core'
-    i.pod_target_xcconfig = {
-      'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Intercom/Intercom'
-      # 'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
-    }
-  end
+ # s.subspec 'Intercom' do |i|
+ #   i.source_files = 'Providers/Intercom/AnalyticsKitIntercomProvider.swift'
+ #   i.frameworks = 'Intercom'
+ #   i.dependency 'Intercom'
+ #   i.dependency 'AnalyticsKit/Core'
+ #   i.pod_target_xcconfig = {
+ #     'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/Intercom/Intercom'
+ #     # 'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+ #   }
+ # end
 
   s.subspec 'Crashlytics' do |c|
     c.source_files = 'Providers/Crashlytics/AnalyticsKitCrashlyticsProvider.swift'
