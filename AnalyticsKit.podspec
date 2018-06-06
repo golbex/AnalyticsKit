@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                       AnalyticsKit works both in ARC based projects and non-ARC projects.
                   DESC
 
-  s.homepage     = "https://github.com/twobitlabs/AnalyticsKit"
+  s.homepage     = "https://github.com/golbex/AnalyticsKit"
 
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
 
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
 
   s.platform     = :ios, '8.4'
-  s.source       = { :git => "https://github.com/twobitlabs/AnalyticsKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/golbex/AnalyticsKit.git", :tag => s.version.to_s }
   s.requires_arc = false
 
   s.subspec 'Core' do |core|
