@@ -10,24 +10,13 @@
 		2E80B4831C526EFC00F8AD7A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80B4821C526EFC00F8AD7A /* libicucore.tbd */; };
 		2EE8B81C1C52CAF300DC2534 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80B4821C526EFC00F8AD7A /* libicucore.tbd */; };
 		3C0E31884581BEA8F2CEBC63 /* Pods_AnalyticsKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A3FA301E799CDB1CFCD94 /* Pods_AnalyticsKitTests.framework */; };
-		6646A0D286D26A8A3739A1BB /* Pods_AnalyticsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34723EB158F95A8FF30287A5 /* Pods_AnalyticsKit.framework */; };
-		6E73BDF11ECF833000657CDE /* AnalyticsKitLocalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF01ECF833000657CDE /* AnalyticsKitLocalyticsProvider.swift */; };
-		6E73BDF31ECF8CD800657CDE /* AnalyticsKitParseProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF21ECF8CD800657CDE /* AnalyticsKitParseProvider.swift */; };
-		6E73BDF51ECF8ED000657CDE /* AnalyticsKitNewRelicProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF41ECF8ED000657CDE /* AnalyticsKitNewRelicProvider.swift */; };
-		6E73BDF71ECF919700657CDE /* AnalyticsKitApsalarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF61ECF919700657CDE /* AnalyticsKitApsalarProvider.swift */; };
 		6E73BDF91ECF968000657CDE /* AnalyticsKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF81ECF968000657CDE /* AnalyticsKitViewController.swift */; };
 		6E73BDFB1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDFA1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift */; };
-		6E73BDFE1ECFB90000657CDE /* AnalyticsKitIntercomProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDFD1ECFB90000657CDE /* AnalyticsKitIntercomProvider.swift */; };
 		8B0964DD1D53D25500F7762D /* AnalyticsKitUnitTestProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0964DC1D53D25400F7762D /* AnalyticsKitUnitTestProvider.swift */; };
 		8B0964DF1D53DE8E00F7762D /* AnalyticsKitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0964DE1D53DE8E00F7762D /* AnalyticsKitEvent.swift */; };
 		8B0964E11D53E13C00F7762D /* AnalyticsKitTimedEventHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0964E01D53E13C00F7762D /* AnalyticsKitTimedEventHelper.swift */; };
-		8B09672A1D53ECAF00F7762D /* AnalyticsKitMParticleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0967291D53ECAF00F7762D /* AnalyticsKitMParticleProvider.swift */; };
 		8B3B60411D51597600B9A17D /* AnalyticsKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3B60401D51597600B9A17D /* AnalyticsKit.swift */; };
-		8B6DDF611DAEEFEF007DB912 /* AnalyticsKitMixpanelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6DDF601DAEEFEF007DB912 /* AnalyticsKitMixpanelProvider.swift */; };
-		8B99E9791E995CEC003C506B /* AnalyticsKitFlurryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B7991D52A3D8008F5E60 /* AnalyticsKitFlurryProvider.swift */; };
-		8B99E97B1E995DF6003C506B /* libApsalar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0EF37D18E0F4C100D19A2C /* libApsalar.a */; };
 		8BA2B7941D52A3A3008F5E60 /* AnalyticsKitDebugProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B7931D52A3A3008F5E60 /* AnalyticsKitDebugProvider.swift */; };
-		8BA2B7961D52A3B5008F5E60 /* AnalyticsKitAdjustIOProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B7951D52A3B5008F5E60 /* AnalyticsKitAdjustIOProvider.swift */; };
 		8BA2B7981D52A3C6008F5E60 /* AnalyticsKitCrashlyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B7971D52A3C6008F5E60 /* AnalyticsKitCrashlyticsProvider.swift */; };
 		8BA2B79C1D52A3E5008F5E60 /* AnalyticsKitGoogleAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA2B79B1D52A3E5008F5E60 /* AnalyticsKitGoogleAnalyticsProvider.swift */; };
 		9C0EF36818E0EDB100D19A2C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C0EF36718E0EDB100D19A2C /* CoreTelephony.framework */; };
@@ -48,7 +37,6 @@
 		9C3799CF181838FD00488101 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3799B1181838FD00488101 /* UIKit.framework */; };
 		9C3799D7181838FD00488101 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9C3799D5181838FD00488101 /* InfoPlist.strings */; };
 		9C3799D9181838FD00488101 /* AnalyticsKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3799D8181838FD00488101 /* AnalyticsKitTests.m */; };
-		E7F9CCA11F7CFB9100C71B46 /* AnalyticsKitMicrosoftMobileCenterProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7F9CCA01F7CFB9100C71B46 /* AnalyticsKitMicrosoftMobileCenterProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,28 +52,18 @@
 /* Begin PBXFileReference section */
 		2E80B4821C526EFC00F8AD7A /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		34723EB158F95A8FF30287A5 /* Pods_AnalyticsKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalyticsKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EB9DA5B1E14BA2D0054FF4A /* AnalyticsKitWatchExtensionFlurryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitWatchExtensionFlurryProvider.swift; sourceTree = "<group>"; };
 		66B14F99163A5EF8EA9202A3 /* Pods-AnalyticsKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit.release.xcconfig"; sourceTree = "<group>"; };
-		6E73BDF01ECF833000657CDE /* AnalyticsKitLocalyticsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitLocalyticsProvider.swift; sourceTree = "<group>"; };
-		6E73BDF21ECF8CD800657CDE /* AnalyticsKitParseProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitParseProvider.swift; sourceTree = "<group>"; };
-		6E73BDF41ECF8ED000657CDE /* AnalyticsKitNewRelicProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitNewRelicProvider.swift; sourceTree = "<group>"; };
-		6E73BDF61ECF919700657CDE /* AnalyticsKitApsalarProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitApsalarProvider.swift; sourceTree = "<group>"; };
 		6E73BDF81ECF968000657CDE /* AnalyticsKitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitViewController.swift; sourceTree = "<group>"; };
 		6E73BDFA1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitAppDelegate.swift; sourceTree = "<group>"; };
-		6E73BDFD1ECFB90000657CDE /* AnalyticsKitIntercomProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitIntercomProvider.swift; sourceTree = "<group>"; };
 		8B0964DC1D53D25400F7762D /* AnalyticsKitUnitTestProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitUnitTestProvider.swift; sourceTree = "<group>"; };
 		8B0964DE1D53DE8E00F7762D /* AnalyticsKitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsKitEvent.swift; path = ../../AnalyticsKitEvent.swift; sourceTree = "<group>"; };
 		8B0964E01D53E13C00F7762D /* AnalyticsKitTimedEventHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitTimedEventHelper.swift; sourceTree = "<group>"; };
-		8B0967291D53ECAF00F7762D /* AnalyticsKitMParticleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitMParticleProvider.swift; sourceTree = "<group>"; };
 		8B3B603F1D51597500B9A17D /* AnalyticsKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AnalyticsKit-Bridging-Header.h"; path = "AnalyticsKit/AnalyticsKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		8B3B60401D51597600B9A17D /* AnalyticsKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsKit.swift; path = ../../AnalyticsKit.swift; sourceTree = "<group>"; };
 		8B3B60421D51769D00B9A17D /* AnalyticsKitTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnalyticsKitTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		8B6DDF601DAEEFEF007DB912 /* AnalyticsKitMixpanelProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitMixpanelProvider.swift; sourceTree = "<group>"; };
 		8B6DDF621DAEF0F3007DB912 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8BA2B7931D52A3A3008F5E60 /* AnalyticsKitDebugProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsKitDebugProvider.swift; path = ../../AnalyticsKitDebugProvider.swift; sourceTree = "<group>"; };
-		8BA2B7951D52A3B5008F5E60 /* AnalyticsKitAdjustIOProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitAdjustIOProvider.swift; sourceTree = "<group>"; };
 		8BA2B7971D52A3C6008F5E60 /* AnalyticsKitCrashlyticsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnalyticsKitCrashlyticsProvider.swift; path = Crashlytics/AnalyticsKitCrashlyticsProvider.swift; sourceTree = "<group>"; };
-		8BA2B7991D52A3D8008F5E60 /* AnalyticsKitFlurryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitFlurryProvider.swift; sourceTree = "<group>"; };
 		8BA2B79B1D52A3E5008F5E60 /* AnalyticsKitGoogleAnalyticsProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitGoogleAnalyticsProvider.swift; sourceTree = "<group>"; };
 		9C0EF32318E0DB7F00D19A2C /* Apsalar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apsalar.h; sourceTree = "<group>"; };
 		9C0EF36718E0EDB100D19A2C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
@@ -114,7 +92,6 @@
 		ACDB2B2A0B1ACE41D2ABA939 /* Pods-AnalyticsKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsKitTests/Pods-AnalyticsKitTests.release.xcconfig"; sourceTree = "<group>"; };
 		B1FCCFAD6F37D68A4CE8386A /* Pods-AnalyticsKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CAC72BDCB2679B3279429F0D /* Pods-AnalyticsKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalyticsKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnalyticsKitTests/Pods-AnalyticsKitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E7F9CCA01F7CFB9100C71B46 /* AnalyticsKitMicrosoftMobileCenterProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsKitMicrosoftMobileCenterProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +110,7 @@
 				9C0EF36818E0EDB100D19A2C /* CoreTelephony.framework in Frameworks */,
 				9C3799B0181838FD00488101 /* CoreGraphics.framework in Frameworks */,
 				9C3799B2181838FD00488101 /* UIKit.framework in Frameworks */,
-				8B99E97B1E995DF6003C506B /* libApsalar.a in Frameworks */,
 				9C3799AE181838FD00488101 /* Foundation.framework in Frameworks */,
-				6646A0D286D26A8A3739A1BB /* Pods_AnalyticsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,22 +129,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6E73BDFC1ECFB90000657CDE /* Intercom */ = {
-			isa = PBXGroup;
-			children = (
-				6E73BDFD1ECFB90000657CDE /* AnalyticsKitIntercomProvider.swift */,
-			);
-			path = Intercom;
-			sourceTree = "<group>";
-		};
-		8B0967281D53ECAF00F7762D /* mParticle */ = {
-			isa = PBXGroup;
-			children = (
-				8B0967291D53ECAF00F7762D /* AnalyticsKitMParticleProvider.swift */,
-			);
-			path = mParticle;
-			sourceTree = "<group>";
-		};
 		9C0EF30E18E0D0F300D19A2C /* ProviderLibraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -282,46 +241,11 @@
 		9C3799EE18183A6B00488101 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
-				6E73BDFC1ECFB90000657CDE /* Intercom */,
-				9C3799EF18183A6B00488101 /* AdjustIO */,
-				9C3799F218183A6B00488101 /* Apsalar */,
 				9C379A1818183BAD00488101 /* Crashlytics */,
-				9C3799F518183A6B00488101 /* Flurry */,
 				9C3799F818183A6B00488101 /* Google Analytics */,
-				9C3799FB18183A6B00488101 /* Localytics */,
-				E7F9CC9F1F7CFB9100C71B46 /* Microsoft Mobile Center */,
-				9C3799FE18183A6B00488101 /* Mixpanel */,
-				8B0967281D53ECAF00F7762D /* mParticle */,
-				9C379A0118183A6B00488101 /* New Relic */,
-				9C379A0418183A6B00488101 /* Parse */,
 			);
 			name = Providers;
 			path = ../../Providers;
-			sourceTree = "<group>";
-		};
-		9C3799EF18183A6B00488101 /* AdjustIO */ = {
-			isa = PBXGroup;
-			children = (
-				8BA2B7951D52A3B5008F5E60 /* AnalyticsKitAdjustIOProvider.swift */,
-			);
-			path = AdjustIO;
-			sourceTree = "<group>";
-		};
-		9C3799F218183A6B00488101 /* Apsalar */ = {
-			isa = PBXGroup;
-			children = (
-				6E73BDF61ECF919700657CDE /* AnalyticsKitApsalarProvider.swift */,
-			);
-			path = Apsalar;
-			sourceTree = "<group>";
-		};
-		9C3799F518183A6B00488101 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				8BA2B7991D52A3D8008F5E60 /* AnalyticsKitFlurryProvider.swift */,
-				3EB9DA5B1E14BA2D0054FF4A /* AnalyticsKitWatchExtensionFlurryProvider.swift */,
-			);
-			path = Flurry;
 			sourceTree = "<group>";
 		};
 		9C3799F818183A6B00488101 /* Google Analytics */ = {
@@ -332,52 +256,12 @@
 			path = "Google Analytics";
 			sourceTree = "<group>";
 		};
-		9C3799FB18183A6B00488101 /* Localytics */ = {
-			isa = PBXGroup;
-			children = (
-				6E73BDF01ECF833000657CDE /* AnalyticsKitLocalyticsProvider.swift */,
-			);
-			path = Localytics;
-			sourceTree = "<group>";
-		};
-		9C3799FE18183A6B00488101 /* Mixpanel */ = {
-			isa = PBXGroup;
-			children = (
-				8B6DDF601DAEEFEF007DB912 /* AnalyticsKitMixpanelProvider.swift */,
-			);
-			path = Mixpanel;
-			sourceTree = "<group>";
-		};
-		9C379A0118183A6B00488101 /* New Relic */ = {
-			isa = PBXGroup;
-			children = (
-				6E73BDF41ECF8ED000657CDE /* AnalyticsKitNewRelicProvider.swift */,
-			);
-			path = "New Relic";
-			sourceTree = "<group>";
-		};
-		9C379A0418183A6B00488101 /* Parse */ = {
-			isa = PBXGroup;
-			children = (
-				6E73BDF21ECF8CD800657CDE /* AnalyticsKitParseProvider.swift */,
-			);
-			path = Parse;
-			sourceTree = "<group>";
-		};
 		9C379A1818183BAD00488101 /* Crashlytics */ = {
 			isa = PBXGroup;
 			children = (
 				8BA2B7971D52A3C6008F5E60 /* AnalyticsKitCrashlyticsProvider.swift */,
 			);
 			name = Crashlytics;
-			sourceTree = "<group>";
-		};
-		E7F9CC9F1F7CFB9100C71B46 /* Microsoft Mobile Center */ = {
-			isa = PBXGroup;
-			children = (
-				E7F9CCA01F7CFB9100C71B46 /* AnalyticsKitMicrosoftMobileCenterProvider.swift */,
-			);
-			path = "Microsoft Mobile Center";
 			sourceTree = "<group>";
 		};
 		EDD541DB125BE2B5576F16FF /* Pods */ = {
@@ -402,8 +286,6 @@
 				9C3799A6181838FD00488101 /* Sources */,
 				9C3799A7181838FD00488101 /* Frameworks */,
 				9C3799A8181838FD00488101 /* Resources */,
-				BEA7C8531B56D12924A55E68 /* [CP] Embed Pods Frameworks */,
-				CCFE90F37DF7DFD7EB03966B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -532,36 +414,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnalyticsKitTests/Pods-AnalyticsKitTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BEA7C8531B56D12924A55E68 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
-				"${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework",
-				"${PODS_ROOT}/Localytics/Localytics-iOS-5.1.0/Localytics.framework",
-				"${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework",
-				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
-				"${BUILT_PRODUCTS_DIR}/mParticle-Apple-SDK/mParticle_Apple_SDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Adjust.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Flurry_iOS_SDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localytics.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mixpanel.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mParticle_Apple_SDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C93E86C48A85F977CBF8E2B9 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -580,26 +432,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		CCFE90F37DF7DFD7EB03966B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit-resources.sh",
-				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/Intercom.bundle",
-				"${PODS_ROOT}/Intercom/Intercom/Intercom.framework/Versions/A/Resources/IntercomTranslations.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Intercom.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IntercomTranslations.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnalyticsKit/Pods-AnalyticsKit-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -608,22 +440,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E73BDFB1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift in Sources */,
-				8B6DDF611DAEEFEF007DB912 /* AnalyticsKitMixpanelProvider.swift in Sources */,
 				8BA2B7941D52A3A3008F5E60 /* AnalyticsKitDebugProvider.swift in Sources */,
-				6E73BDFE1ECFB90000657CDE /* AnalyticsKitIntercomProvider.swift in Sources */,
-				6E73BDF51ECF8ED000657CDE /* AnalyticsKitNewRelicProvider.swift in Sources */,
-				6E73BDF31ECF8CD800657CDE /* AnalyticsKitParseProvider.swift in Sources */,
 				8B0964E11D53E13C00F7762D /* AnalyticsKitTimedEventHelper.swift in Sources */,
-				6E73BDF71ECF919700657CDE /* AnalyticsKitApsalarProvider.swift in Sources */,
 				8BA2B79C1D52A3E5008F5E60 /* AnalyticsKitGoogleAnalyticsProvider.swift in Sources */,
 				6E73BDF91ECF968000657CDE /* AnalyticsKitViewController.swift in Sources */,
-				E7F9CCA11F7CFB9100C71B46 /* AnalyticsKitMicrosoftMobileCenterProvider.swift in Sources */,
-				6E73BDF11ECF833000657CDE /* AnalyticsKitLocalyticsProvider.swift in Sources */,
 				8BA2B7981D52A3C6008F5E60 /* AnalyticsKitCrashlyticsProvider.swift in Sources */,
-				8BA2B7961D52A3B5008F5E60 /* AnalyticsKitAdjustIOProvider.swift in Sources */,
 				8B0964DF1D53DE8E00F7762D /* AnalyticsKitEvent.swift in Sources */,
-				8B99E9791E995CEC003C506B /* AnalyticsKitFlurryProvider.swift in Sources */,
-				8B09672A1D53ECAF00F7762D /* AnalyticsKitMParticleProvider.swift in Sources */,
 				8B3B60411D51597600B9A17D /* AnalyticsKit.swift in Sources */,
 				8B0964DD1D53D25500F7762D /* AnalyticsKitUnitTestProvider.swift in Sources */,
 			);

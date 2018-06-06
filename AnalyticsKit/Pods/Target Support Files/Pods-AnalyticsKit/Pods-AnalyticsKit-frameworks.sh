@@ -141,25 +141,6 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
-
-if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework"
-  install_framework "${PODS_ROOT}/Localytics/Localytics-iOS-5.1.0/Localytics.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse/Parse.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/mParticle-Apple-SDK/mParticle_Apple_SDK.framework"
-fi
-if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Flurry-iOS-SDK/Flurry_iOS_SDK.framework"
-  install_framework "${PODS_ROOT}/Localytics/Localytics-iOS-5.1.0/Localytics.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Mixpanel/Mixpanel.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Parse/Parse.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/mParticle-Apple-SDK/mParticle_Apple_SDK.framework"
-fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

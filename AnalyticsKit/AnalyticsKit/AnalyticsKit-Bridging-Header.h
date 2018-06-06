@@ -5,10 +5,8 @@
 #ifndef AnalyticsKit_Bridging_Header_h
 #define AnalyticsKit_Bridging_Header_h
 
-#import <NewRelicAgent/NewRelic.h>
 #import <GoogleAnalytics/GAI.h>
 #import <GoogleAnalytics/GAIDictionaryBuilder.h>
 #import <GoogleAnalytics/GAIFields.h>
-#import "Apsalar.h"
 
 #endif

@@ -6,18 +6,18 @@ target 'AnalyticsKit' do
 
   # Pods for AnalyticsKit
 
-  pod 'Mixpanel', '~> 3.1.4'
-  pod 'Adjust', '~> 4.5'
-  pod 'Localytics'
+#  pod 'Mixpanel', '~> 3.1.4'
+#  pod 'Adjust', '~> 4.5'
+#  pod 'Localytics'
   pod 'GoogleAnalytics'
-  pod 'Parse'
-  pod 'mParticle-Apple-SDK', '~> 7'
+#  pod 'Parse'
+#  pod 'mParticle-Apple-SDK', '~> 7'
   # pod 'Apsalar'
-  pod 'NewRelicAgent'
-  pod 'Flurry-iOS-SDK'
+#  pod 'NewRelicAgent'
+#  pod 'Flurry-iOS-SDK'
   pod 'Crashlytics'
-  pod 'Intercom'
-  pod 'MobileCenter'
+#  pod 'Intercom'
+#  pod 'MobileCenter'
 
   target 'AnalyticsKitTests' do
     inherit! :search_paths
