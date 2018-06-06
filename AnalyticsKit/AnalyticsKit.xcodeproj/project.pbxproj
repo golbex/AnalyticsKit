@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2E80B4831C526EFC00F8AD7A /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80B4821C526EFC00F8AD7A /* libicucore.tbd */; };
 		2EE8B81C1C52CAF300DC2534 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E80B4821C526EFC00F8AD7A /* libicucore.tbd */; };
+		3A5388AE015B08D536D61E6D /* Pods_AnalyticsKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34723EB158F95A8FF30287A5 /* Pods_AnalyticsKit.framework */; };
 		3C0E31884581BEA8F2CEBC63 /* Pods_AnalyticsKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05A3FA301E799CDB1CFCD94 /* Pods_AnalyticsKitTests.framework */; };
 		6E73BDF91ECF968000657CDE /* AnalyticsKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDF81ECF968000657CDE /* AnalyticsKitViewController.swift */; };
 		6E73BDFB1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73BDFA1ECF96D000657CDE /* AnalyticsKitAppDelegate.swift */; };
@@ -111,6 +112,7 @@
 				9C3799B0181838FD00488101 /* CoreGraphics.framework in Frameworks */,
 				9C3799B2181838FD00488101 /* UIKit.framework in Frameworks */,
 				9C3799AE181838FD00488101 /* Foundation.framework in Frameworks */,
+				3A5388AE015B08D536D61E6D /* Pods_AnalyticsKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
